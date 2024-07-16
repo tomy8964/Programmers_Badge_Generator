@@ -36,6 +36,6 @@ jobs:
         run: |
           git config --global user.email "${{ env.GIT_EMAIL }}"
           git config --global user.name "${{ env.GIT_NAME }}"
-          git add result.svg
+          git add .
           git commit -m "Update badge"
           git push
